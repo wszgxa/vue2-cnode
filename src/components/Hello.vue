@@ -1,15 +1,18 @@
-<template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-  </div>
-</template>
-
 <script>
 export default {
   data () {
     return {
       msg: 'Hello Vue!'
     }
+  },
+  render: (h) => {
+    return h(
+      'h1',
+      [
+        'lalal',
+        h('span', 'heheh')
+      ]
+    )
   }
 }
 </script>
