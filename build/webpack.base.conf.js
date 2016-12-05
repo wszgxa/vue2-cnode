@@ -20,7 +20,8 @@ module.exports = {
       'src': path.resolve(__dirname, '../src'),
       'assets': path.resolve(__dirname, '../src/assets'),
       'components': path.resolve(__dirname, '../src/components'),
-      'store': path.resolve(__dirname, '../src/vuex')
+      'store': path.resolve(__dirname, '../src/vuex'),
+      'styl': path.resolve(__dirname, '../src/assets/styl')
     }
   },
   resolveLoader: {
